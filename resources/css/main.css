@@ -214,13 +214,53 @@ footer {
         margin-bottom: 10px;
       }
 
-      
+
 /* -------------------- FORMS */
 
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+  margin-bottom: var(--spacer);
+  border: 1px solid var(--border-color);
+  padding: 10px;
+
+  width: 480px;
+  max-width: 100%;
+
+  border-radius: 4px; /* could use a variable here*/
+}
+
+input[type="submit"] {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+  
+    background-color: var(--alternative-bg-color);
+    color: white;
+  
+    padding: var(--spacer);
+    border: none;
+    border-radius: 30px;
+  
+    transition: var(--transition-time);
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--strong-text-color);
+  }
+
+  .indicates-required {
+    margin-bottom: 10px;
+  }
   
 
-  
+
 /* -------------------- MODULES */
+
+
 
 
 
