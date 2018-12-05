@@ -28,20 +28,22 @@
 header {
     background-color: #084e3f;
     }
-    footer {
-    background-color: #084e3f;
-    }
+    
+
+
 
 
 /* -------------------- NAVIGATION */
 
 
 
-
+ 
 /* -------------------- FOOTER */
 
 
-
+footer {
+    background-color: #084e3f;
+    }
 
 
 /* -------------------- FORMS */
