@@ -189,7 +189,32 @@ footer {
     background-color: var(--alternative-bg-color);
     }
 
+    .footer-subscribe {
+        background-color: var(--secondary-bg-color);
+        padding-top: var(--spacer-large);
+        padding-bottom: var(--spacer-large);
+        text-align: center;
+      }
 
+      .footer-notices {
+        padding-top: var(--spacer);
+        padding-bottom: var(--spacer);
+      }
+
+      .footer-notices .layout-wide {
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      .copyright {
+        color: white;
+      }
+      
+      .indicates-required {
+        margin-bottom: 10px;
+      }
+
+      
 /* -------------------- FORMS */
 
   
