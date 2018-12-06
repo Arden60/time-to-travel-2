@@ -1,6 +1,4 @@
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Raleway');
 
 
 
@@ -9,9 +7,12 @@
 :root {
 
     /* fonts */
+
+
     --font-heading: 'Lilita One', cursive;
     --font-default: "Raleway", sans-serif;
   
+
     /* Colors */
     --color-green: #084e3f;
     --color-red: #ff5b5e;
@@ -20,7 +21,6 @@
     --color-mid-blue: #34495e;
     --color-almost-white: #e8eef4;
   
-
     /* abstract colors out */
     --main-text-color: var(--color-mid-blue);
     --strong-text-color: var(--color-deep-blue);
@@ -31,7 +31,6 @@
     --secondary-bg-color: var(--color-almost-white);
     --alternative-bg-color: var(--color-green);
     
-
     /* measurements*/
     --padder: 3%;
     --spacer: 20px;
@@ -40,7 +39,6 @@
   
     --area-wide: 1200px;
   
-
     /* font sizes */
     --font-size-site-title: 32px;
     --font-size-page-title: 40px;
@@ -157,7 +155,7 @@ header {
     }
     
     header .layout-wide {
-        overflow: hidden;
+        overflow: hidden; /* float hack*/
         margin-bottom: 0;
       }
       
@@ -166,6 +164,8 @@ header {
         float: left;
       }
       
+      
+
       .site-title {
         font-family: var(--font-heading);
         font-size: var(--font-size-site-title);
