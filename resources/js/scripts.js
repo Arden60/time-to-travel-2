@@ -30,7 +30,7 @@ $('.nav-prompt').click(function() {
  
 })
 
-  
+
 //nav active class
 
 function activeMenu() {
